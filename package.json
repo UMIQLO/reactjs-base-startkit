@@ -1,0 +1,29 @@
+{
+  "name": "reactjs-base-startkit",
+  "version": "1.0.0",
+  "description": "ReactJs Base StartKit",
+  "main": "index.js",
+  "repository": "https://github.com/umiqlo/reactjs-base-startkit",
+  "author": "UMIQLO (David Lo)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.js --mode development --progress --inline --colors --open",
+    "build": "webpack --config webpack.config.prod.js --mode production --progress --colors"
+  },
+  "dependencies": {
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "html-webpack-plugin": "^3.1.0",
+    "webpack": "^4.4.1",
+    "webpack-cli": "^2.0.13",
+    "webpack-dev-server": "^3.1.1"
+  }
+}
