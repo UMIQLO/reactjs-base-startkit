@@ -9,3 +9,6 @@ bundle.js.map
 
 # idea ide conf
 .idea
+
+# yarn command error log
+yarn-error.log
