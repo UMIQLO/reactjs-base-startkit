@@ -5,16 +5,16 @@
       "error",
       "never"
     ],
-    "arrow-body-style": [
-      "error",
-      "always"
-    ],
     "no-console": 0,
     "indent": [
       "error",
-      2
+      2,
+      {
+        "SwitchCase": 1
+      }
     ],
     "no-undef": "off",
+    "linebreak-style": 0,
     "react/jsx-filename-extension": [
       1,
       {
