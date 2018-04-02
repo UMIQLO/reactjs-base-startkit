@@ -1,5 +1,9 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import HelloReact from "./HelloReact";
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-ReactDOM.render(<HelloReact/>, document.getElementById("root"));
+import HelloReact from './app/HelloWorld/HelloReact'
+
+ReactDOM.render(
+  <HelloReact />,
+  document.getElementById('root'),
+)
